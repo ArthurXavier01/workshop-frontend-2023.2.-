@@ -1,0 +1,89 @@
+footer{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+/* incio filmes */
+
+
+}
+.filmes {
+    text-align: center;
+    color: white;
+}
+.filmes h1{
+    font-size: 35px;
+}
+.filmes ol{
+    list-style: none;
+    font-size: 25px;
+    margin-top: 5% ;
+}
+.filmes li{
+    transition: 0.4s;
+}
+.filmes li:hover{
+    color: red;
+    transform: scale(1.1);
+}
+
+/* fim filmes */
+
+
+/* inicio bilheteria */
+
+.bilheteria{
+    color: white;
+}
+.bilheteria h1{
+    font-size: 35px;
+}
+.bilheteria ol{
+    font-size: 25px;
+    list-style: none;
+    margin-top: 5%;
+}
+.bilheteria li{
+    transition: 0.4s;
+}
+.bilheteria li:hover{
+    color: green;
+    transform: scale(1.1);
+}
+
+/* fim bilheteria */
+
+
+
+
+/* //botão de contato// */
+
+.contatofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+}
+.contatofooter button{
+    width: 50%;
+    height: 3rem;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 0.5em;
+}
+.contatofooter button:hover{
+    transform: scale(1.1);
+    background-color:  #FFE35C;
+    color: white;
+}
+.contatofooter button a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+
