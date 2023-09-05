@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/componentes/header/header.css">
+    <link rel="stylesheet" href="/src/css/componentes/footer/footer.css">
+    <link rel="stylesheet" href="/src/css/contato.css">
+    <link rel="shortcut icon" href="/src/img/shortcut2.webp" type="image/x-icon">
+    <title>Entre em Contato</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logoHeader">
+            <img src="/src/img/logoheader.png">
+        </div>
+        <div class="navHeader">
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#curiosidades">Curiosidades</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="/src/pages/contato.html"><ins class="ativado">Contato</ins></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="contato">
+        <form>
+            <div class="logocontato">
+                <img src="/src/img/logocontato.png" alt="Logo contato">
+            </div>
+            <div class="inputs">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                <label for="Email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu Email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+            </div>
+            <button type="submit"><a href="">Enviar</a></button>
+        </form>
+    </section>
+</body>
+</html>
